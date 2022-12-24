@@ -152,7 +152,7 @@ export default function About() {
           <figure>
             <img
               className="w-full rounded-lg"
-              src="https://cdn-shop.adafruit.com/1200x900/2804-00.jpg"
+              src="https://media.discordapp.net/attachments/1053822984185446440/1056041780291829761/cav_realistic_nfc_ring_on_a_table_7b0a574a-6103-4e12-9cc6-5b6907e8c758.png"
               alt=""
               width={1310}
               height={873}
