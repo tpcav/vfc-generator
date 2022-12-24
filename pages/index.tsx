@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import path from 'path';
 import Scroll from '../dashboard/Scroll';
+import Link from 'next/link';
 
 // Function to create a VCF file content
 function createVCFContent(contact) {
@@ -67,16 +68,16 @@ function VCFGenerator() {
     <div className="flex flex-col items-center justify-center bg-gray-100 mt-10 p-4">
       <nav className="bg-white shadow-md fixed top-0 w-full">
         <div className="container mx-auto px-6 py-2 flex items-center justify-between">
-          <a href="/" className="font-bold text-xl text-gray-900">Linkwear</a>
+          <Link href="/" className="font-bold text-xl text-gray-900">Linkwear</Link>
           <ul className="md:flex md:items-center">
             <li className="mr-6">
-              <a href="/" className="text-gray-600 hover:text-gray-900">Home</a>
+              <Link href="/" className="text-gray-600 hover:text-gray-900">Home</Link>
             </li>
             <li className="mr-6">
-              <a href="/about" className="text-gray-600 hover:text-gray-900">About</a>
+              <Link href="/about" className="text-gray-600 hover:text-gray-900">About</Link>
             </li>
             <li className="mr-6">
-              <a href="mailto:tpc75@drexel" className="text-gray-600 hover:text-gray-900">Contact</a>
+              <Link href="mailto:tpc75@drexel" className="text-gray-600 hover:text-gray-900">Contact</Link>
             </li>
           </ul>
         </div>
