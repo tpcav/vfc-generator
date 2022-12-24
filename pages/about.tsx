@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 
 /*
   This example requires some changes to your config:
@@ -141,7 +142,7 @@ export default function About() {
             <p>
               RFID technology and applications are revolutionizing supply-chain management and
               are enabling companies to obtain an enormous amount of data in a short period of time.
-              It's only in its infancy state, but it's going to affect nearly all industries.
+              It is only in its infancy state, but it is going to affect nearly all industries.
             </p>
           </blockquote>
           <p>- Paul Peercy</p>
@@ -150,7 +151,7 @@ export default function About() {
             sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit.
           </p>
           <figure>
-            <img
+            <Image
               className="w-full rounded-lg"
               src="https://cdn-shop.adafruit.com/1200x900/2804-00.jpg"
               alt=""
