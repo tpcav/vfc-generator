@@ -17,22 +17,24 @@ import Link from "next/link"
 export default function About() {
   return (
     <div className="relative overflow-hidden bg-white py-16 mt-10">
-      <nav className="z-0 bg-white shadow-md fixed top-0 w-full">
-        <div className="container mx-auto px-6 py-2 flex items-center justify-between">
-          <Link href="#" className="font-bold text-xl text-gray-900">Linkwear</Link>
-          <ul className="md:flex md:items-center">
-            <li className="mr-6">
-              <Link href="/" className="text-gray-600 hover:text-gray-900">Home</Link>
-            </li>
-            <li className="mr-6">
-              <Link href="/about" className="text-gray-600 hover:text-gray-900">About</Link>
-            </li>
-            <li className="mr-6">
-              <Link href="mailto:tpc75@drexel" className="text-gray-600 hover:text-gray-900">Contact</Link>
-            </li>
-          </ul>
-        </div>
-      </nav>
+      <div>
+        <nav className="z-10 bg-white shadow-md fixed top-0 w-full">
+          <div className="container mx-auto px-6 py-2 flex items-center justify-between">
+            <Link href="/" className="font-bold text-xl text-gray-900">Linkwear</Link>
+            <ul className="md:flex md:items-center">
+              <li className="mr-6">
+                <Link href="/" className="text-gray-600 hover:text-gray-900">Home</Link>
+              </li>
+              <li className="mr-6">
+                <Link href="/about" className="text-gray-600 hover:text-gray-900">About</Link>
+              </li>
+              <li className="mr-6">
+                <Link href="mailto:tpc75@drexel" className="text-gray-600 hover:text-gray-900">Contact</Link>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
       <div className="z-1 hidden lg:absolute lg:inset-y-0 lg:block lg:h-full lg:w-full lg:[overflow-anchor:none]">
         <div className="relative mx-auto h-full max-w-prose text-lg" aria-hidden="true">
           <svg
@@ -103,47 +105,46 @@ export default function About() {
       <div className="relative px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-prose text-lg">
           <h1>
-            <span className="block text-center text-lg font-semibold text-blue-600">Introducing</span>
+            <span className="block text-center text-lg font-semibold text-blue-600">Learn to:</span>
             <span className="mt-2 block text-center text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">
-              JavaScript for Beginners
+              Create your own vCards
             </span>
           </h1>
-          <p className="mt-8 text-xl leading-8 text-gray-500">
-            Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam eget
-            aliquam. Quisque id at vitae feugiat egestas ac. Diam nulla orci at in viverra scelerisque eget. Eleifend
-            egestas fringilla sapien.
+          <p className="mt-8 text-lg leading-8 text-gray-500">
+            Start by filling out the information you want to be on your VCF file.
           </p>
         </div>
         <div className="prose prose-lg prose-blue mx-auto mt-6 text-gray-500">
-          <p>
-            Faucibus commodo massa rhoncus, volutpat. <strong>Dignissim</strong> sed <strong>eget risus enim</strong>.
-            Mattis mauris semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra
-            tellus varius sit neque erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim.{' '}
-            <Link href="#">Mattis mauris semper</Link> sed amet vitae sed turpis id.
-          </p>
           <ul role="list">
-            <li>Quis elit egestas venenatis mattis dignissim.</li>
-            <li>Cras cras lobortis vitae vivamus ultricies facilisis tempus.</li>
-            <li>Orci in sit morbi dignissim metus diam arcu pretium.</li>
+            <li>Enter your name</li>
+            <li>Phone number</li>
+            <li>Email</li>
+            <li>Address</li>
+            <li>Website</li>
+            <li>and more +</li>
           </ul>
           <p>
-            Quis semper vulputate aliquam venenatis egestas sagittis quisque orci. Donec commodo sit viverra aliquam
-            porttitor ultrices gravida eu. Tincidunt leo, elementum mattis elementum ut nisl, justo, amet, mattis. Nunc
-            purus, diam commodo tincidunt turpis. Amet, duis sed elit interdum dignissim.
+            Once you are finished, hit the <strong> generate button</strong>.
+            Now your vCard link is created.
           </p>
-          <h2>From beginner to expert in 30 days</h2>
+          <div className='text-center'>
+            <button className="bg-blue-500 hover:bg-blue-700 text-lg text-white text-center	font-bold py-2 px-4 mt-2 mb-2 rounded-lg focus:outline-none focus:shadow-outline">
+              <Link href="/" className="text-white no-underline	">Create</Link>
+            </button>
+          </div>
+          <h2>The future of this brand.</h2>
           <p>
-            Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam consequat in. Convallis arcu ipsum urna nibh.
-            Pharetra, euismod vitae interdum mauris enim, consequat vulputate nibh. Maecenas pellentesque id sed tellus
-            mauris, ultrices mauris. Tincidunt enim cursus ridiculus mi. Pellentesque nam sed nullam sed diam turpis
-            ipsum eu a sed convallis diam.
+            Linkwear will focus on making wearable RFID/NFC technology. Our products are intented to
+            look like regular wearables. Including, rings, braclets, necklaces. 
           </p>
           <blockquote>
             <p>
-              Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique
-              pellentesque. Blandit amet, sed aenean erat arcu morbi.
+              RFID technology and applications are revolutionizing supply-chain management and
+              are enabling companies to obtain an enormous amount of data in a short period of time.
+              It's only in its infancy state, but it's going to affect nearly all industries.
             </p>
           </blockquote>
+          <p>- Paul Peercy</p>
           <p>
             Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae
             sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit.
@@ -151,14 +152,14 @@ export default function About() {
           <figure>
             <img
               className="w-full rounded-lg"
-              src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=facearea&w=1310&h=873&q=80&facepad=3"
+              src="https://cdn-shop.adafruit.com/1200x900/2804-00.jpg"
               alt=""
               width={1310}
               height={873}
             />
             <figcaption>Sagittis scelerisque nulla cursus in enim consectetur quam.</figcaption>
           </figure>
-          <h2>Everything you need to get up and running</h2>
+          <h2>Everything you need to get up and running.</h2>
           <p>
             Purus morbi dignissim senectus mattis <Link href="#">adipiscing</Link>. Amet, massa quam varius orci dapibus
             volutpat cras. In amet eu ridiculus leo sodales cursus tristique. Tincidunt sed tempus ut viverra ridiculus

@@ -64,6 +64,7 @@ function VCFGenerator() {
   };
 
   return (
+    
     <div className="flex flex-col items-center justify-center bg-gray-100 mt-10 p-4">
       <nav className="bg-white shadow-md fixed top-0 w-full">
         <div className="container mx-auto px-6 py-2 flex items-center justify-between">
@@ -130,7 +131,7 @@ function VCFGenerator() {
             <input type="text" name="note" value={contact.note} onChange={handleChange} className="border rounded w-full py-2 px-3 text-gray-700 bg-gray-100 leading-tight focus:outline-none focus:shadow-outline" />
           </div>
         <div className='text-center'>
-          <button type="submit" className="bg-blue-500 hover:bg-blue-700 text-white text-center	font-bold py-2 px-4 mt-6 mb-4 rounded focus:outline-none focus:shadow-outline">
+          <button type="submit" className="bg-blue-500 hover:bg-blue-700 text-white text-center	font-bold py-2 px-4 mt-6 mb-4 rounded-lg focus:outline-none focus:shadow-outline">
             Download
           </button>
         </div>
