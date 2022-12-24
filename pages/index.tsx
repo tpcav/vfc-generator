@@ -55,7 +55,7 @@ function VCFGenerator() {
   };
 
   // Function to handle form input change
-  const handleChange = (event) => {
+  const handleChange = (event: any) => {
     setContact({
       ...contact,
       [event.target.name]: event.target.value,
