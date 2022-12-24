@@ -159,6 +159,7 @@ export default function About() {
             />
             <figcaption>NFC tag ring photos by <Link href="https://adafruit.com/">MidjourneyAI</Link></figcaption>
           </figure>
+          <p>By Thomas Cavalcante</p>
         </div>
       </div>
     </div>
