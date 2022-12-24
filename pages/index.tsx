@@ -3,7 +3,7 @@ import path from 'path';
 import Link from 'next/link';
 
 // Function to create a VCF file content
-function createVCFContent(contact: {[key: string]: any) {
+function createVCFContent(contact: any) {
   return `BEGIN:VCARD
 VERSION:4.0
 N:${contact.lastName};${contact.firstName}
