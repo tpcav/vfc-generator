@@ -3,7 +3,7 @@ import path from 'path';
 import Link from 'next/link';
 
 // Function to create a VCF file content
-function createVCFContent(contact) {
+function createVCFContent(contact: {[key: string]: any) {
   return `BEGIN:VCARD
 VERSION:4.0
 N:${contact.lastName};${contact.firstName}
@@ -34,7 +34,7 @@ function VCFGenerator() {
   });
 
   // Function to handle form submission
-  const handleSubmit = (event) => {
+  const handleSubmit = (event: any) => {
     event.preventDefault();
 
     // Create the VCF file content
