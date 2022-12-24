@@ -130,7 +130,7 @@ function VCFGenerator() {
             <label className="block text-gray-700 text-sm font-bold mb-2">Note:</label>
             <input type="text" name="note" value={contact.note} onChange={handleChange} className="border rounded w-full py-2 px-3 text-gray-700 bg-gray-100 leading-tight focus:outline-none focus:shadow-outline" />
           </div>
-        <div className='text-center'>
+        <div className="text-center">
           <button type="submit" className="bg-blue-500 hover:bg-blue-700 text-white text-center	font-bold py-2 px-4 mt-6 mb-4 rounded-lg focus:outline-none focus:shadow-outline">
             Download
           </button>
