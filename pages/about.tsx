@@ -129,7 +129,7 @@ export default function About() {
           </p>
           <div className="text-center">
             <button className="bg-blue-500 hover:bg-blue-700 text-lg text-white text-center	font-bold py-2 px-4 mt-2 mb-2 rounded-lg focus:outline-none focus:shadow-outline">
-              <Link href="/" className="text-white no-underline	">Create</Link>
+              <Link href="/" className="text-white no-underline">Create</Link>
             </button>
           </div>
           <h2>The future of this brand.</h2>
