@@ -29,7 +29,7 @@ export default function About() {
                 <Link href="/about" className="text-gray-600 hover:text-gray-900">About</Link>
               </li>
               <li className="mr-6">
-                <Link href="mailto:tpc75@drexel" className="text-gray-600 hover:text-gray-900">Contact</Link>
+                <Link href="mailto:contact@linkwear.co" className="text-gray-600 hover:text-gray-900">Contact</Link>
               </li>
             </ul>
           </div>
