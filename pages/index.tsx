@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import path from 'path';
-import Scroll from '../dashboard/Scroll';
 import Link from 'next/link';
 
 // Function to create a VCF file content

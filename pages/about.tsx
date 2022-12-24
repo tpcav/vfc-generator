@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 /*
   This example requires some changes to your config:
   
@@ -17,16 +19,16 @@ export default function About() {
     <div className="relative overflow-hidden bg-white py-16 mt-10">
       <nav className="z-0 bg-white shadow-md fixed top-0 w-full">
         <div className="container mx-auto px-6 py-2 flex items-center justify-between">
-          <a href="#" className="font-bold text-xl text-gray-900">Linkwear</a>
+          <Link href="#" className="font-bold text-xl text-gray-900">Linkwear</Link>
           <ul className="md:flex md:items-center">
             <li className="mr-6">
-              <a href="/" className="text-gray-600 hover:text-gray-900">Home</a>
+              <Link href="/" className="text-gray-600 hover:text-gray-900">Home</Link>
             </li>
             <li className="mr-6">
-              <a href="/about" className="text-gray-600 hover:text-gray-900">About</a>
+              <Link href="/about" className="text-gray-600 hover:text-gray-900">About</Link>
             </li>
             <li className="mr-6">
-              <a href="mailto:tpc75@drexel" className="text-gray-600 hover:text-gray-900">Contact</a>
+              <Link href="mailto:tpc75@drexel" className="text-gray-600 hover:text-gray-900">Contact</Link>
             </li>
           </ul>
         </div>
@@ -117,7 +119,7 @@ export default function About() {
             Faucibus commodo massa rhoncus, volutpat. <strong>Dignissim</strong> sed <strong>eget risus enim</strong>.
             Mattis mauris semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra
             tellus varius sit neque erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim.{' '}
-            <a href="#">Mattis mauris semper</a> sed amet vitae sed turpis id.
+            <Link href="#">Mattis mauris semper</Link> sed amet vitae sed turpis id.
           </p>
           <ul role="list">
             <li>Quis elit egestas venenatis mattis dignissim.</li>
@@ -158,7 +160,7 @@ export default function About() {
           </figure>
           <h2>Everything you need to get up and running</h2>
           <p>
-            Purus morbi dignissim senectus mattis <a href="#">adipiscing</a>. Amet, massa quam varius orci dapibus
+            Purus morbi dignissim senectus mattis <Link href="#">adipiscing</Link>. Amet, massa quam varius orci dapibus
             volutpat cras. In amet eu ridiculus leo sodales cursus tristique. Tincidunt sed tempus ut viverra ridiculus
             non molestie. Gravida quis fringilla amet eget dui tempor dignissim. Facilisis auctor venenatis varius nunc,
             congue erat ac. Cras fermentum convallis quam.
