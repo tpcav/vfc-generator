@@ -27,6 +27,7 @@ function VCFGenerator() {
     company: '',
     street: '',
     city: '',
+    state: '',
     zip: '',
     website: '',
     note: '',
